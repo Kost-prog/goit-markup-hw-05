@@ -147,7 +147,6 @@ button { cursor: pointer;}
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /*background-size: 1440px;*/
     max-width: 1440px;
     margin: 0 auto;
     background-size: cover;
@@ -609,5 +608,24 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+.form-check {
+  margin-bottom: 24px;
+  }
+  .checkbox {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    }
+    .checkbox-icon {
+      width: 16;
+      height: 16;
+      border: 1px solid rgba(46, 47, 66, 0.4);
+      border-radius: 2px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      fill: transparent;
+    } 

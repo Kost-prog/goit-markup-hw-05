@@ -424,11 +424,23 @@
         </div>
         <div class="input-comment">
         <label class="modal-label" for="user-comment">Comment</label>
-        <textarea class="text-input" name="user-comment" rows="" cols="" placeholder="Text input"></textarea>
-                                
+        <textarea class="text-input" name="user-comment" rows="" cols="" placeholder="Text input"></textarea>                     
         </div>
-
+        <div class="form-check">
+            <input type="checkbox" id="user-privacy" name="user-privacy" value="true" class="visually-hidden">
+            <label for="user-privacy">
+                <span class="checkbox-icon">
+                <svg class="check" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+                </span>
+                <span class="checkbox">I accept the terms and conditions of the <a href="/privacy-policy" class="privacy-policy-link">Privacy Policy</a>
+                    </span>
+            </label>
+        </div>
+        <div class="form-button">
             <button class="hero-btn" type="submit">Send</button>
+        </div>
     </form>
     </div>
     
