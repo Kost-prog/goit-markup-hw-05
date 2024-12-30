@@ -636,20 +636,20 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
       justify-content: center;
       fill: transparent;
     } 
-    input :checked + label {
-      background-color: #404bbf;
-      border: none;
-      fill: #F4F4FD;
-    }
+        input:checked+.chek-label>.checkbox-icon {
+          background-color: #404BBF;
+          border: none;
+          fill: #F4F4FD;}
+          
     .privacy-policy-link {
       color: #4d5ae5;
     }
     .button-s {
       display: block;
       border-radius: 4px;
-        margin-left: auto;
-        margin-right: auto;
-         min-width: 169px;
+      margin-left: auto;
+      margin-right: auto;
+      min-width: 169px;
       height: 56px;
       font-family: "Roboto", sans-serif;
       font-size: 16px;
