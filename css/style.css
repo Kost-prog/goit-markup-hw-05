@@ -578,14 +578,9 @@ color: #ffffff;
 }
 
 .close-p {
-  fill: #2e2f42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-p:hover,
-.close-p:focus {
-  fill: #ffffff;
-}
 .mod-p {
     margin-bottom: 16px;
     font-weight: 500;
